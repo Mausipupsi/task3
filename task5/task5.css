@@ -1,0 +1,13 @@
+table {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.bordered-table, .bordered-table th, .bordered-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.bordered-table th, .bordered-table td {
+    width: 150px;
+    height: 25px;
+}

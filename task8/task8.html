@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фізична розмітка зі стилями</title>
+    <link rel="stylesheet" href="./task8.css">
+</head>
+<body>
+    <!-- Робить текст жирним -->
+    <p>
+        Тег <span lang="en" class="main">b:</span><br>
+        Це звичайний текст<br>
+        <b>А це жирний текст</b>
+    </p>
+    <!-- Ізолює частину тексту, яка може бути форматована в напрямку, відмінному від іншого тексту -->
+    <p>
+        Тег <span lang="en" class="main">bdi:</span><br>
+        <bdi>שבת</bdi> — субота
+    </p>
+    <!-- Перевертає напрямок тексту -->
+    <p>
+        Тег <span lang="en" class="main">bdo:</span><br>
+        Це звичайний текст: субота<br>
+        А це задом наперед: <bdo dir="rtl">субота</bdo>
+    </p>
+    <!-- Робить текст курсивним -->
+    <p>
+        Тег <span lang="en" class="main">i:</span><br>
+        Це звичайний текст <br>
+        <i>А це курсивний текст</i>
+    </p>
+    <!-- Перекреслює текст -->
+    <p>
+        Тег <span lang="en" class="main">s:</span><br>
+        Це звичайний текст <br>
+        <s>А це перекреслений текст</s>
+    </p>
+    <!-- Зменшує розмір шрифту на один рівень -->
+    <p>
+        Тег <span lang="en" class="main">small:</span><br>
+        Нормальний розмір шрифту <small>Текст, поміщений в тег <span lang="en">small</span> <small>текст в середині вкладеного тегу <span lang="en">small</span></small></small>        
+    </p>
+    <!-- Збільшує розмір шрифту на один рівень -->
+    <p>
+        Тег <span lang="en" class="main">big:</span><br>
+        Нормальний розмір шрифту <big>Текст, поміщений в тег <span lang="en">big</span> <big>текст в середині вкладеного тегу <span lang="en">big</span></big></big>
+    </p>
+    <!-- Відображає верхній індекс -->
+    <p>
+        Тег <span lang="en" class="main">sup:</span><br>
+        Нормальний розмір шрифту <sup>верхній індекс <sup>вкладений верхній індекс</sup></sup>
+    </p>
+    <!-- Відображає нижній індекс -->
+    <p>
+        Тег <span lang="en" class="main">sub:</span><br>
+        Нормальний розмір шрифту <sub>нижній індекс <sub>вкладений нижній індекс</sub></sub>
+    </p>
+    <!-- Відображає скалярну величину у вигляді графічного індикатора -->
+    <p>
+        Тег <span lang="en" class="main">meter:</span><br>
+        Тиск<br>
+        <meter value="105" max="100" min="0" low="10" high="60">
+            Показання датчиків низькі
+        </meter>
+    </p>
+    <!-- Відображає стан завершення завдання -->
+    <p>
+        Тег <span lang="en" class="main">progress:</span><br>
+        Зачекайте, йде завантаження файлів<br>
+        <progress value="78" max="100">
+            Завантажено на <span id="value">78</span>%
+        </progress>
+    </p>
+    <!-- Використовується для групування інлайнових елементів в документі. Це корисно, коли вам потрібно застосувати стиль до специфічних частин -->
+    <p>
+        Тег <span lang="en" class="main">span:</span><br>
+        Тег <span lang="en" class="for_task">span</span> використовується для виділення <span class="for_task">фрагментів тексту</span> і дозволяє задати їм стильове оформлення.
+    </p>
+</body>
+</html>

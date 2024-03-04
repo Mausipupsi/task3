@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#main {
+    text-align: center;
+}
+
+#main #fac {
+    padding-bottom: 100px;
+}
+
+#main #kaf {
+    padding-bottom: 140px;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 270px;
+}
+
+.student {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    padding-bottom: 120px;
+}
+
+#author, #description {
+    margin-bottom: 8px;
+}
+
+#zmist {
+    padding-bottom: 18px;
+}
+
+#zmist, #author, #description {
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+#task1, #task2, #task3, #task4, #task5, #task6, #task8, #task9, #task10, #task11, #add_task1, #add_task2, #add_task3, #add_task4 {
+    padding-left: 90px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
